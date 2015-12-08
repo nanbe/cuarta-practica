@@ -1,0 +1,661 @@
+
+.principal {
+	background-color: #F4F4F4;
+	/*position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 1300px;
+	margin-left: -500px;*/
+	width: 987px;
+	margin: 0 auto; /* ESto es para centrar horizontal */
+	height: 2100px;
+}
+
+.sidebar {
+	width: 350px;
+	height: 2100px;
+	background-color: #F4F4F4;
+	float: left;
+}
+
+.main {
+	width: 620px;
+	height: 2100px;
+	background-color: #F4F4F4;
+	float: left;
+	margin-left: 17px;
+}
+
+.contenedor-texto {
+	width: 327px;
+	height: 198px;
+	background-color: #F4F4F4;
+	border-bottom: 1px solid #CDCDCD;
+	margin-left: 11px;
+}
+
+.contenedor-imagen {
+	width: 290px;
+	height: 75px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.circular {
+	width: 70px;
+	height: 70px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(http://placehold.it/70x70) no-repeat;
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+h1, .texto {
+	margin: 15px;
+	font-size: 15px;
+	margin-top: 5px;
+	font-family: 'Muli', sans-serif;
+}
+
+.contenedor-caja {
+	width: 326px;
+	height: 195px;
+	background-color: #FFFFFF;
+	margin-top: 40px;
+	border: 1px solid #CDCDCD;
+	margin-left: 10px;
+}
+
+.imagenes {
+	width: 327px;
+	height: 135px;	
+}
+
+.circulo-usuario {
+	width: 40px;
+	height: 40px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(http://placehold.it/40x40) no-repeat;
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	float: right;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 70px;
+}
+
+.contenedor-texto-usuario {
+	width: 300px;
+	height: 50px;
+}
+
+h2 {
+	margin-bottom: 0px;
+	margin-top: 5px;
+	margin-left: 10px;
+	width: 370px;
+	margin-right: 0auto;
+	font-size: 11px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+
+
+.contenedor-imagen-uno {
+	width: 620px;
+	height: 620px;
+	background-color: #FFFFFF;
+	border: 1px solid #CDCDCD;
+	margin-bottom: 45px;
+}
+
+.titulo1 {
+	width: 466px;
+	height: 110px;
+	background-color: #FFFFFF;
+	float: left;
+	border: 1px solid #CDCDCD;
+}
+
+.titulo2 {
+	width: 150px;
+	height: 110px;
+	background-color: #FFFFFF;
+	float: left;
+	border: 1px solid #CDCDCD;
+}
+
+.imagen1 {
+	width: 620px;
+	height: 295px;
+	background-color: #FFFFFF;
+}
+
+.texto-contenedor-imagen {
+	width: 620px;
+	height: 200px;
+	background-color: #FFFFFF;
+}
+
+h3 {
+	width: 375px;
+	height: 25px;
+	margin-left: 5px;
+	font-size: 16px;
+	text-align: left;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+.texto-titulo1{
+	width: 420px;
+	height: 70px;
+	background-color: #FFFFFF;
+	padding-left: 23px;
+	padding-right: 23px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.gato-acostado {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.circulo-titulo2 {
+	width: 40px;
+	height: 40px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(http://placehold.it/40x40) no-repeat;
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	float: right;
+	margin-bottom: 28px;
+	margin-right: 15px;
+	margin-top: -5px;
+}
+
+.contenedor-titulo2 {
+	width: 200px;
+	height: 50px;
+}
+
+h4 {
+	font-size: 12px;
+	text-align: center;
+	margin: 10px;
+	margin-left: 0px;
+	width: 125px;
+}
+
+.titulo2b {
+	width: 125px;
+	height: 90px;
+	margin-top: 33px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.subtitulo {
+	text-align: center;
+	margin-top: 18px;
+	font-size: 11px;
+	font-family: 'Muli', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	width: 50px;
+	margin-left: 5px;
+	margin-right: 0 auto;
+}
+
+.texto-imagen1 {
+	width: 600px;
+	height: 110px;
+	margin: 0px;
+	padding: 10px;
+}
+
+.texto-imagen1-dos {
+	width: 575px;
+	height: 100px;
+	line-height: 20px;
+	margin-top: 13px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	margin-right: 15px;
+	font-family: 'Muli', sans-serif;
+	text-transform: lowercase;
+	font-weight: 100;
+	font-size: 16px;
+}
+
+.texto-imagen2 {
+	width: 600px;
+	height: 100px;
+	margin: 0px;
+	padding: 10px;
+}
+
+.texto-continua {
+	width: 268px;
+	height: 25px;
+	background-color: white;
+	padding-left: 30px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	float: left;
+}
+
+.texto-continua2 {
+	font-size: 12px;
+	float: left;
+	font-family: 'Oswald', sans-serif;
+	font-size: 11px;
+}
+
+.texto-imagen3 {
+	width: 268px;
+	height: 25px;
+	background-color: white;
+	padding-left: 30px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	float: left;
+}
+
+.texto-continua3 {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+body {
+	background-color: #F4F4F4;
+}
+
+.contenedor-imagen-dos {
+	width: 620px;
+	height: 680px;
+	background-color: #FFFFFF;
+	border: 1px solid #CDCDCD;
+	margin-bottom: 45px;
+}
+
+.titulo-version1 {
+	width: 466px;
+	height: 190px;
+	background-color: #FFFFFF;
+	float: left;
+	border: 1px solid #CDCDCD;
+}
+
+.texto-titulo-version1 {
+	width: 420px;
+	height: 140px;
+	background-color: #FFFFFF;
+	padding-left: 23px;
+	padding-right: 23px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.titulo-version2 {
+	width: 150px;
+	height: 190px;
+	background-color: #FFFFFF;
+	float: left;
+	border: 1px solid #CDCDCD;
+}
+
+.contenedor-titulo-version2 {
+	width: 200px;
+	height: 50px;
+}
+
+.titulo3b {
+	width: 125px;
+	height: 90px;
+	margin-top: 70px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.circulo-titulo-version2 {
+	width: 40px;
+	height: 40px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(http://placehold.it/40x40) no-repeat;
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	float: right;
+	margin-bottom: 28px;
+	margin-right: 15px;
+	margin-top: -5px;
+}
+
+.subtitulo-version2 {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 11px;
+	text-align: center;
+	margin-top: 18px;
+	font-family: 'Muli', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	width: 50px;
+	margin-left: 5px;
+	margin-right: 0 auto;
+}
+
+.imagen-version2 {
+	width: 620px;
+	height: 295px;
+	background-color: #FFFFFF;
+}
+
+.gato-acostado2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.texto-contenedor-imagen2 {
+	width: 620px;
+	height: 100px;
+	background-color: #FFFFFF;
+}
+
+.texto-imagen1-dos {
+	width: 575px;
+	height: 100px;
+	line-height: 20px;
+	margin-top: 13px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	margin-right: 15px;
+}
+
+.texto-imagen22 {
+	width: 600px;
+	height: 50px;
+}
+
+.texto-continua-version2 {
+	width: 268px;
+	height: 25px;
+	background-color: white;
+	padding-left: 30px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	float: left;
+	font-family: 'Oswald', sans-serif;
+	font-size: 11px;
+}
+
+.texto-continua-version2 {
+	font-size: 12px;
+	float: left;
+}
+
+.texto-imagen33 {
+	width: 268px;
+	height: 25px;
+	background-color: white;
+	padding-left: 30px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	float: left;
+}
+
+.texto-continua-version22 {
+	font-size: 11px;
+	float: left;
+	color: #CDCDCD;
+	font-family: 'Oswald', sans-serif;
+}
+
+.version2 {
+	width: 400px;
+	height: 90px;
+	margin-left: 5px;
+	margin-top: 50px;
+
+}
+
+.miniatura1 {
+	width: 328px;
+	height: 80px;
+	background-color: #F4F4F4;
+	margin-top: 25px;
+	margin-left: 10px;
+	border-bottom: 1px solid #CDCDCD;
+	border-top: 1px solid #CDCDCD;
+}
+
+.img1 {
+	width: 55px;
+	height: 55px;
+	background-color: red;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10pxpx;
+	margin-left: 2px;
+}
+
+.txt1 {
+	width: 260px;
+	height: 55px;
+	background-color: #F4F4F4;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10pxpx;
+	margin-right: 2px;
+}
+
+.miniatura-principal {
+	width: 320px;
+	height: 75px;
+	background-color: #F4F4F4;
+	float: left;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: 4px;
+	margin-right: 10px;
+}
+
+h5 {
+	width: 260px;
+	height: 20px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-size: 13px;
+	margin-left: 10px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.sub1 {
+	width: 260px;
+	height: 25px;
+	font-size: 11px;
+	margin-left: 10px;
+	margin-top: 5px;
+	font-family: 'Muli', sans-serif;
+}
+
+.aprende-mas {
+	width: 350px;
+	height: 150px;
+	background-color: #F4F4F4;
+	margin-top: 30px;
+}
+
+h6 {
+	width: 320px;
+	height: 20px;
+	margin-left: 11px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	background-color: #F4F4F4;
+	font-size: 14px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.saber-mas-texto {
+	width: 320px;
+	height: 60px;
+	margin-left: 11px;
+	margin-right: 15px;
+	text-align: justify;
+	font-family: 'Muli', sans-serif;
+	text-transform: lowercase;
+	font-weight: 100;
+	font-size: 14px;
+}
+
+.saber-mas {
+	width: 340px;
+	height: 90px;
+	margin-left: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #F4F4F4;
+}
+
+.aprende {
+	width: 340px;
+	height: 33px;
+	margin-left: 5px;
+	margin-top: 4px;
+	background-color: #F4F4F4;
+}
+
+
+
+.despedida {
+	widht: 320px;
+	height: 20px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 20px;
+	font-size: 10px;
+	margin-left: 11px;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.redes-sociales {
+	width: 350px;
+	height: 136px;
+	border-top: 1px solid #CDCDCD;
+	margin-top: 20px;
+}
+
+.conenedor-redes {
+	width: 350px;
+	height: 40px;
+	margin-top: 18px;
+	background-color: #F4F4F4;
+}
+
+
+i {
+	margin-left: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #CDCDCD;
+}
+
+.copyright {
+	width: 350px;
+	height: 30px;
+	margin-top: 5px;
+	background-color: #F4F4F4;
+}
+
+
+.simbolo {
+	margin-left: 10px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-size: 10px;
+	color: #CDCDCD;
+}
+
+.parrafo2 {
+	margin-bottom: 0px;
+	margin-top: 12px;
+	margin-left: 5px;
+	width: 370px;
+	margin-right: 0auto;
+	font-size: 11px;
+	font-family: 'Muli', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.parrafo4 {
+	margin-bottom: 0px;
+	margin-top: 10px;
+	margin-left: 5px;
+	width: 370px;
+	margin-right: 0auto;
+	font-size: 11px;
+	font-family: 'Muli', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.parrafo5 {
+	margin-bottom: 0px;
+	margin-top: 10px;
+	margin-left: 5px;
+	width: 370px;
+	margin-right: 0auto;
+	font-size: 11px;
+	font-family: 'Muli', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+p {
+	margin-bottom: 0px;
+	margin-top: 5px;
+	margin-left: 10px;
+	width: 370px;
+	margin-right: 0auto;
+	font-size: 11px;
+	font-family: 'Muli', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.texto-continua2b {
+	float: left;
+	font-family: 'Oswald', sans-serif;
+	font-size: 11px;
+	color: #CDCDCD;
+}
