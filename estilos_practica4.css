@@ -1,4 +1,142 @@
 
+/* Estilos de cada Evento */
+/**************************/
+.contenedor-evento {
+    width: 620px;
+    /*height: 620px;*/
+    background-color: #FFFFFF;
+    border: 1px solid #CDCDCD; /* genera 1px a la izq y 1px a la derecha, total: 622px */
+    margin-bottom: 45px;
+}
+
+.contenedor-titulo-fecha {
+    border-bottom: 1px solid #CDCDCD;
+}
+
+.contenedor-titulo { /* Tamaño 467px */
+    width: 466px;
+    /*height: 110px;*/
+    float: left;
+
+    border-right: 1px solid #CDCDCD;
+
+    /* A esto equivale la forma NO ABREVIADA
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CDCDCD; */
+}
+
+        .titulo {
+            min-height: 70px;
+            padding: 20px;
+        }
+
+        h3 {
+            margin: 0px;
+            font-size: 16px;
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+        }
+
+        .subtitulo {
+            margin-top: 20px;
+            font-size: 11px;
+            font-family: 'Muli', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+.contenedor-fecha-usuario { /* Tamaño 153px*/
+    width: 133px;
+    height: 110px;
+    float: left;
+
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+    .fecha {
+        font-weight: bold;
+        font-family: 'Muli', sans-serif;
+        font-size: 10px;
+        text-align: right;
+        margin-top: 20px;
+    }
+
+    .usuario {
+        margin-top: 10px;
+    }
+    .nombre-usuario {
+        margin-top: 20px;
+        float: left;
+        font-family: 'Muli', sans-serif;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .imagen-usuario{
+        float: right;
+    }
+
+    .imagen-usuario img{
+        border-radius: 100px;
+    }
+
+
+.limpiar-float {
+    clear: both;
+}
+
+.imagen-evento {
+    /*width: 620px;*/
+    /*height: 295px;*/
+    padding: 20px; /* tamaño imagen 580 + 20x2 (por que el padding es izq y der) = 620px */
+}
+
+/* Este forza una imagen grande a adaptarse al ancho del div .imagen-evento */
+.imagen-evento img {
+    width: 580px;
+}
+
+.contenido-evento {
+    padding: 20px;
+    padding-top: 0;
+}
+
+.texto-evento{
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.boton-continuar {
+    float: left;
+}
+
+.contenedor-tema-megusta-mensajes {
+    float: right;
+}
+
+.contenedor-tema-megusta-mensajes div {
+    display: inline;
+    border-right: 1px solid #CDCDCD;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-family: 'Muli', sans-serif;
+    font-size: 10px;
+}
+
+.contenedor-tema-megusta-mensajes div:last-child {
+    border-right: 0;
+}
+
+
+
+
+/**************************/
+
 .principal {
 	background-color: #F4F4F4;
 	/*position: absolute;
@@ -6,8 +144,9 @@
 	left: 50%;
 	width: 1300px;
 	margin-left: -500px;*/
-	width: 987px;
-	margin: 0 auto; /* ESto es para centrar horizontal */
+	/*width: 987px;*/
+	width: 989px; /* Es la suma de width, margin y border de .sidebar y .main*/
+	margin: 0 auto; /* Esto es para centrar horizontal */
 	height: 2100px;
 }
 
@@ -19,7 +158,7 @@
 }
 
 .main {
-	width: 620px;
+	width: 622px;
 	height: 2100px;
 	background-color: #F4F4F4;
 	float: left;
@@ -102,7 +241,7 @@ h2 {
 	margin-top: 5px;
 	margin-left: 10px;
 	width: 370px;
-	margin-right: 0auto;
+	margin-right: 0 auto;
 	font-size: 11px;
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
@@ -111,35 +250,7 @@ h2 {
 
 
 
-.contenedor-imagen-uno {
-	width: 620px;
-	height: 620px;
-	background-color: #FFFFFF;
-	border: 1px solid #CDCDCD;
-	margin-bottom: 45px;
-}
 
-.titulo1 {
-	width: 466px;
-	height: 110px;
-	background-color: #FFFFFF;
-	float: left;
-	border: 1px solid #CDCDCD;
-}
-
-.titulo2 {
-	width: 150px;
-	height: 110px;
-	background-color: #FFFFFF;
-	float: left;
-	border: 1px solid #CDCDCD;
-}
-
-.imagen1 {
-	width: 620px;
-	height: 295px;
-	background-color: #FFFFFF;
-}
 
 .texto-contenedor-imagen {
 	width: 620px;
@@ -147,27 +258,7 @@ h2 {
 	background-color: #FFFFFF;
 }
 
-h3 {
-	width: 375px;
-	height: 25px;
-	margin-left: 5px;
-	font-size: 16px;
-	text-align: left;
-	margin-bottom: 5px;
-	margin-top: 10px;
-	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
-}
 
-.texto-titulo1{
-	width: 420px;
-	height: 70px;
-	background-color: #FFFFFF;
-	padding-left: 23px;
-	padding-right: 23px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
 
 .gato-acostado {
 	margin-top: 20px;
@@ -213,18 +304,6 @@ h4 {
 	margin-bottom: 0px;
 	margin-left: 15px;
 	margin-right: 15px;
-}
-
-.subtitulo {
-	text-align: center;
-	margin-top: 18px;
-	font-size: 11px;
-	font-family: 'Muli', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	width: 50px;
-	margin-left: 5px;
-	margin-right: 0 auto;
 }
 
 .texto-imagen1 {
@@ -605,7 +684,8 @@ i {
 	color: #CDCDCD;
 }
 
-.parrafo2 {
+/*
+.subtitulo {
 	margin-bottom: 0px;
 	margin-top: 12px;
 	margin-left: 5px;
@@ -615,7 +695,7 @@ i {
 	font-family: 'Muli', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-}
+}*/
 
 .parrafo4 {
 	margin-bottom: 0px;
@@ -641,6 +721,7 @@ i {
 	letter-spacing: 1px;
 }
 
+/*
 p {
 	margin-bottom: 0px;
 	margin-top: 5px;
@@ -651,7 +732,7 @@ p {
 	font-family: 'Muli', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-}
+}*/
 
 .texto-continua2b {
 	float: left;
@@ -659,3 +740,4 @@ p {
 	font-size: 11px;
 	color: #CDCDCD;
 }
+
