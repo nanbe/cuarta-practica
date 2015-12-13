@@ -61,22 +61,25 @@
         font-family: 'Muli', sans-serif;
         font-size: 10px;
         text-align: right;
-        margin-top: 20px;
+        margin-top: 25px;
+		text-align: center;
     }
 
     .usuario {
         margin-top: 10px;
     }
     .nombre-usuario {
-        margin-top: 20px;
+        margin-top: 15px;
+		margin-left: 20px;
         float: left;
         font-family: 'Muli', sans-serif;
-        font-size: 12px;
+        font-size: 11px;
         letter-spacing: 1px;
     }
 
     .imagen-usuario{
         float: right;
+		margin-right: 15px;
     }
 
     .imagen-usuario img{
@@ -110,8 +113,22 @@
     font-weight: 100;
 }
 
-.boton-continuar {
+/*******Boton Continuar*****/
+
+.boton {
+	width: 130px;
+    /* height: 25px; */
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: black;
+    /* background-color: white; */
+    border: 1px solid #CDCDCD;
+    letter-spacing: 2px;
     float: left;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
 }
 
 .contenedor-tema-megusta-mensajes {
@@ -132,19 +149,10 @@
     border-right: 0;
 }
 
-
-
-
 /**************************/
 
 .principal {
 	background-color: #F4F4F4;
-	/*position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 1300px;
-	margin-left: -500px;*/
-	/*width: 987px;*/
 	width: 989px; /* Es la suma de width, margin y border de .sidebar y .main*/
 	margin: 0 auto; /* Esto es para centrar horizontal */
 	height: 2100px;
@@ -153,7 +161,6 @@
 .sidebar {
 	width: 350px;
 	height: 2100px;
-	background-color: #F4F4F4;
 	float: left;
 }
 
@@ -193,11 +200,27 @@
 	margin: 0;
 }
 
-h1, .texto {
+h1, p {/****************/
 	margin: 15px;
-	font-size: 15px;
+	font-size: 17px;
 	margin-top: 5px;
 	font-family: 'Muli', sans-serif;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+p.titulo-principal {
+	margin: 15px;
+	font-size: 13px;
+	margin-top: 5px;
+	font-family: 'Muli', sans-serif;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+p.meses{
+	margin-left: 10px;
+	font-size: 11px;
 }
 
 .contenedor-caja {
@@ -232,7 +255,9 @@ h1, .texto {
 }
 
 .contenedor-texto-usuario {
-	width: 300px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 5px;
 	height: 50px;
 }
 
@@ -240,7 +265,6 @@ h2 {
 	margin-bottom: 0px;
 	margin-top: 5px;
 	margin-left: 10px;
-	width: 370px;
 	margin-right: 0 auto;
 	font-size: 11px;
 	font-family: 'Oswald', sans-serif;
@@ -248,23 +272,16 @@ h2 {
 	letter-spacing: 3px;
 }
 
-
-
-
+p.texto-aprende-mas {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 10px;
+}
 
 .texto-contenedor-imagen {
 	width: 620px;
 	height: 200px;
 	background-color: #FFFFFF;
-}
-
-
-
-.gato-acostado {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
 }
 
 .circulo-titulo2 {
@@ -284,245 +301,8 @@ h2 {
 	margin-top: -5px;
 }
 
-.contenedor-titulo2 {
-	width: 200px;
-	height: 50px;
-}
-
-h4 {
-	font-size: 12px;
-	text-align: center;
-	margin: 10px;
-	margin-left: 0px;
-	width: 125px;
-}
-
-.titulo2b {
-	width: 125px;
-	height: 90px;
-	margin-top: 33px;
-	margin-bottom: 0px;
-	margin-left: 15px;
-	margin-right: 15px;
-}
-
-.texto-imagen1 {
-	width: 600px;
-	height: 110px;
-	margin: 0px;
-	padding: 10px;
-}
-
-.texto-imagen1-dos {
-	width: 575px;
-	height: 100px;
-	line-height: 20px;
-	margin-top: 13px;
-	margin-bottom: 15px;
-	margin-left: 10px;
-	margin-right: 15px;
-	font-family: 'Muli', sans-serif;
-	text-transform: lowercase;
-	font-weight: 100;
-	font-size: 16px;
-}
-
-.texto-imagen2 {
-	width: 600px;
-	height: 100px;
-	margin: 0px;
-	padding: 10px;
-}
-
-.texto-continua {
-	width: 268px;
-	height: 25px;
-	background-color: white;
-	padding-left: 30px;
-	padding-top: 7px;
-	padding-bottom: 7px;
-	float: left;
-}
-
-.texto-continua2 {
-	font-size: 12px;
-	float: left;
-	font-family: 'Oswald', sans-serif;
-	font-size: 11px;
-}
-
-.texto-imagen3 {
-	width: 268px;
-	height: 25px;
-	background-color: white;
-	padding-left: 30px;
-	padding-top: 7px;
-	padding-bottom: 7px;
-	float: left;
-}
-
-.texto-continua3 {
-	padding-top: 7px;
-	padding-bottom: 7px;
-}
-
 body {
 	background-color: #F4F4F4;
-}
-
-.contenedor-imagen-dos {
-	width: 620px;
-	height: 680px;
-	background-color: #FFFFFF;
-	border: 1px solid #CDCDCD;
-	margin-bottom: 45px;
-}
-
-.titulo-version1 {
-	width: 466px;
-	height: 190px;
-	background-color: #FFFFFF;
-	float: left;
-	border: 1px solid #CDCDCD;
-}
-
-.texto-titulo-version1 {
-	width: 420px;
-	height: 140px;
-	background-color: #FFFFFF;
-	padding-left: 23px;
-	padding-right: 23px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-.titulo-version2 {
-	width: 150px;
-	height: 190px;
-	background-color: #FFFFFF;
-	float: left;
-	border: 1px solid #CDCDCD;
-}
-
-.contenedor-titulo-version2 {
-	width: 200px;
-	height: 50px;
-}
-
-.titulo3b {
-	width: 125px;
-	height: 90px;
-	margin-top: 70px;
-	margin-bottom: 0px;
-	margin-left: 15px;
-	margin-right: 15px;
-}
-
-.circulo-titulo-version2 {
-	width: 40px;
-	height: 40px;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background: url(http://placehold.it/40x40) no-repeat;
-	background-position: 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin: 0;
-	float: right;
-	margin-bottom: 28px;
-	margin-right: 15px;
-	margin-top: -5px;
-}
-
-.subtitulo-version2 {
-	text-align: center;
-	margin-top: 20px;
-	font-size: 11px;
-	text-align: center;
-	margin-top: 18px;
-	font-family: 'Muli', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	width: 50px;
-	margin-left: 5px;
-	margin-right: 0 auto;
-}
-
-.imagen-version2 {
-	width: 620px;
-	height: 295px;
-	background-color: #FFFFFF;
-}
-
-.gato-acostado2 {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
-.texto-contenedor-imagen2 {
-	width: 620px;
-	height: 100px;
-	background-color: #FFFFFF;
-}
-
-.texto-imagen1-dos {
-	width: 575px;
-	height: 100px;
-	line-height: 20px;
-	margin-top: 13px;
-	margin-bottom: 15px;
-	margin-left: 10px;
-	margin-right: 15px;
-}
-
-.texto-imagen22 {
-	width: 600px;
-	height: 50px;
-}
-
-.texto-continua-version2 {
-	width: 268px;
-	height: 25px;
-	background-color: white;
-	padding-left: 30px;
-	padding-top: 7px;
-	padding-bottom: 7px;
-	float: left;
-	font-family: 'Oswald', sans-serif;
-	font-size: 11px;
-}
-
-.texto-continua-version2 {
-	font-size: 12px;
-	float: left;
-}
-
-.texto-imagen33 {
-	width: 268px;
-	height: 25px;
-	background-color: white;
-	padding-left: 30px;
-	padding-top: 7px;
-	padding-bottom: 7px;
-	float: left;
-}
-
-.texto-continua-version22 {
-	font-size: 11px;
-	float: left;
-	color: #CDCDCD;
-	font-family: 'Oswald', sans-serif;
-}
-
-.version2 {
-	width: 400px;
-	height: 90px;
-	margin-left: 5px;
-	margin-top: 50px;
-
 }
 
 .miniatura1 {
@@ -542,7 +322,6 @@ body {
 	float: left;
 	margin-top: 10px;
 	margin-bottom: 10pxpx;
-	margin-left: 2px;
 }
 
 .txt1 {
@@ -562,27 +341,7 @@ body {
 	float: left;
 	margin-top: 3px;
 	margin-bottom: 3px;
-	margin-left: 4px;
 	margin-right: 10px;
-}
-
-h5 {
-	width: 260px;
-	height: 20px;
-	margin-top: 10px;
-	margin-bottom: 0px;
-	font-size: 13px;
-	margin-left: 10px;
-	font-family: 'Oswald', sans-serif;
-}
-
-.sub1 {
-	width: 260px;
-	height: 25px;
-	font-size: 11px;
-	margin-left: 10px;
-	margin-top: 5px;
-	font-family: 'Muli', sans-serif;
 }
 
 .aprende-mas {
@@ -592,58 +351,12 @@ h5 {
 	margin-top: 30px;
 }
 
-h6 {
-	width: 320px;
-	height: 20px;
-	margin-left: 11px;
-	margin-top: 0px;
-	margin-bottom: 10px;
-	background-color: #F4F4F4;
-	font-size: 14px;
-	font-family: 'Oswald', sans-serif;
-}
-
-.saber-mas-texto {
-	width: 320px;
-	height: 60px;
-	margin-left: 11px;
-	margin-right: 15px;
-	text-align: justify;
-	font-family: 'Muli', sans-serif;
-	text-transform: lowercase;
-	font-weight: 100;
-	font-size: 14px;
-}
-
-.saber-mas {
-	width: 340px;
-	height: 90px;
-	margin-left: 5px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-color: #F4F4F4;
-}
-
 .aprende {
 	width: 340px;
 	height: 33px;
 	margin-left: 5px;
 	margin-top: 4px;
 	background-color: #F4F4F4;
-}
-
-
-
-.despedida {
-	widht: 320px;
-	height: 20px;
-	padding-top: 7px;
-	padding-bottom: 7px;
-	padding-left: 20px;
-	font-size: 10px;
-	margin-left: 11px;
-	font-family: 'Oswald', sans-serif;
-
 }
 
 .redes-sociales {
@@ -660,7 +373,6 @@ h6 {
 	background-color: #F4F4F4;
 }
 
-
 i {
 	margin-left: 10px;
 	margin-top: 15px;
@@ -675,7 +387,6 @@ i {
 	background-color: #F4F4F4;
 }
 
-
 .simbolo {
 	margin-left: 10px;
 	padding-top: 6px;
@@ -684,60 +395,19 @@ i {
 	color: #CDCDCD;
 }
 
-/*
-.subtitulo {
-	margin-bottom: 0px;
-	margin-top: 12px;
-	margin-left: 5px;
-	width: 370px;
-	margin-right: 0auto;
+.primeros-meses {
+	margin: 0px;
 	font-size: 11px;
-	font-family: 'Muli', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-}*/
-
-.parrafo4 {
-	margin-bottom: 0px;
-	margin-top: 10px;
-	margin-left: 5px;
-	width: 370px;
-	margin-right: 0auto;
-	font-size: 11px;
-	font-family: 'Muli', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1px;
 }
 
-.parrafo5 {
-	margin-bottom: 0px;
-	margin-top: 10px;
-	margin-left: 5px;
-	width: 370px;
-	margin-right: 0auto;
+h2.encabezado {
+	margin: 0px;
 	font-size: 11px;
-	font-family: 'Muli', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+	margin-bottom: 8px;
 }
-
-/*
-p {
-	margin-bottom: 0px;
-	margin-top: 5px;
-	margin-left: 10px;
-	width: 370px;
-	margin-right: 0auto;
-	font-size: 11px;
-	font-family: 'Muli', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-}*/
-
-.texto-continua2b {
-	float: left;
+.despedida {
+	margin-left: 25px;
 	font-family: 'Oswald', sans-serif;
-	font-size: 11px;
-	color: #CDCDCD;
+	font-size: 10px;
 }
 
